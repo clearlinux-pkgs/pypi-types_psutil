@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_psutil
 Version  : 5.9.5.4
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/3a/24/edab23fa4dba157f0114f088c8136f73ed3321455225c96a8674b5ae90f0/types-psutil-5.9.5.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3a/24/edab23fa4dba157f0114f088c8136f73ed3321455225c96a8674b5ae90f0/types-psutil-5.9.5.4.tar.gz
 Summary  : Typing stubs for psutil
