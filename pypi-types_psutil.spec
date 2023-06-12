@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_psutil
-Version  : 5.9.5.13
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/a4/f8/25b47a19664023bc2919ce41f70c66eccb9e6e6df11eeaecee778c7cf953/types-psutil-5.9.5.13.tar.gz
-Source0  : https://files.pythonhosted.org/packages/a4/f8/25b47a19664023bc2919ce41f70c66eccb9e6e6df11eeaecee778c7cf953/types-psutil-5.9.5.13.tar.gz
+Version  : 5.9.5.15
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/a6/26/eb2236866bf708a8b35663396295e5c8bf019d14fba5522b4b4cf0ecb474/types-psutil-5.9.5.15.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a6/26/eb2236866bf708a8b35663396295e5c8bf019d14fba5522b4b4cf0ecb474/types-psutil-5.9.5.15.tar.gz
 Summary  : Typing stubs for psutil
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_psutil package.
 
 
 %prep
-%setup -q -n types-psutil-5.9.5.13
-cd %{_builddir}/types-psutil-5.9.5.13
+%setup -q -n types-psutil-5.9.5.15
+cd %{_builddir}/types-psutil-5.9.5.15
 pushd ..
-cp -a types-psutil-5.9.5.13 buildavx2
+cp -a types-psutil-5.9.5.15 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685638998
+export SOURCE_DATE_EPOCH=1686585838
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
