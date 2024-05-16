@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-types_psutil
-Version  : 5.9.5.20240511
-Release  : 28
-URL      : https://files.pythonhosted.org/packages/a6/d4/21dd7afa6c5313b178512ca1bd58ad04e0dff7a8ef6e0e081aa7d7df7ad3/types-psutil-5.9.5.20240511.tar.gz
-Source0  : https://files.pythonhosted.org/packages/a6/d4/21dd7afa6c5313b178512ca1bd58ad04e0dff7a8ef6e0e081aa7d7df7ad3/types-psutil-5.9.5.20240511.tar.gz
+Version  : 5.9.5.20240516
+Release  : 29
+URL      : https://files.pythonhosted.org/packages/af/41/5d3d2f7b7e819e85820eadececc121ab805c0cb4cab5d88defb0a37eabed/types-psutil-5.9.5.20240516.tar.gz
+Source0  : https://files.pythonhosted.org/packages/af/41/5d3d2f7b7e819e85820eadececc121ab805c0cb4cab5d88defb0a37eabed/types-psutil-5.9.5.20240516.tar.gz
 Summary  : Typing stubs for psutil
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-types_psutil package.
 
 
 %prep
-%setup -q -n types-psutil-5.9.5.20240511
-cd %{_builddir}/types-psutil-5.9.5.20240511
+%setup -q -n types-psutil-5.9.5.20240516
+cd %{_builddir}/types-psutil-5.9.5.20240516
 pushd ..
-cp -a types-psutil-5.9.5.20240511 buildavx2
+cp -a types-psutil-5.9.5.20240516 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1715623440
+export SOURCE_DATE_EPOCH=1715874509
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
