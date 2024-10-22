@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-types_psutil
-Version  : 6.0.0.20241011
-Release  : 32
-URL      : https://files.pythonhosted.org/packages/3e/f4/9f967f5a463c04f96f46a9d5427f1cbb525daa26387daa3cf6b5731cc380/types-psutil-6.0.0.20241011.tar.gz
-Source0  : https://files.pythonhosted.org/packages/3e/f4/9f967f5a463c04f96f46a9d5427f1cbb525daa26387daa3cf6b5731cc380/types-psutil-6.0.0.20241011.tar.gz
+Version  : 6.1.0.20241022
+Release  : 33
+URL      : https://files.pythonhosted.org/packages/01/e7/80affd4101d361056ad29cd4953502c17ac8c012c7bb010414fca45a2d03/types-psutil-6.1.0.20241022.tar.gz
+Source0  : https://files.pythonhosted.org/packages/01/e7/80affd4101d361056ad29cd4953502c17ac8c012c7bb010414fca45a2d03/types-psutil-6.1.0.20241022.tar.gz
 Summary  : Typing stubs for psutil
 Group    : Development/Tools
 License  : Apache-2.0
@@ -43,10 +43,10 @@ python3 components for the pypi-types_psutil package.
 
 
 %prep
-%setup -q -n types-psutil-6.0.0.20241011
-cd %{_builddir}/types-psutil-6.0.0.20241011
+%setup -q -n types-psutil-6.1.0.20241022
+cd %{_builddir}/types-psutil-6.1.0.20241022
 pushd ..
-cp -a types-psutil-6.0.0.20241011 buildavx2
+cp -a types-psutil-6.1.0.20241022 buildavx2
 popd
 
 %build
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1728664361
+export SOURCE_DATE_EPOCH=1729607990
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
