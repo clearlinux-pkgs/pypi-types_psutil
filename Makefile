@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_psutil
-URL = https://files.pythonhosted.org/packages/6d/03/015b10b717747922457b54ecd3e2ac3b174d87667b74108f66ccf1c75636/types-psutil-6.1.0.20241102.tar.gz
+URL = https://files.pythonhosted.org/packages/44/8c/5f82cd554cc5bb79d137f082e4c9f8d22e85c8c08dabee4971d422a9abdd/types_psutil-6.1.0.20241221.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
